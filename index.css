@@ -4,7 +4,7 @@
 
 
 h1 {
-  color: darkgreen;
+  color: white;
 }
 
 
@@ -13,3 +13,66 @@ li {
   font-size: 18px;
 }
 
+.navbar-all {
+  background-color: #333333;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width:40%;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 45px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+footer {
+  background-color: #333333;
+}
+
+footer p {
+  font-size: 14px;
+  color: white;
+}
+
+.images_carrousel {
+  display: flex;
+  height: 375px;
+}
+
+.ca_images {
+  width: auto;
+  height: auto;
+  display:flex;
+  padding: 10px 15px;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+nav-button {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #A0583C;
+}
